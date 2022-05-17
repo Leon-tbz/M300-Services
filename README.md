@@ -3,25 +3,24 @@ Modul 300
 ---
 **1. Apache Webserver automatisiert aufsetzen**
 
-Um den Automatisierungsgrad von Vagrant im Rahmen dieser Dokumentation etwas besser hervorzuheben, richten wir eine VM, dass sie direkt mit einem vorinstallierten Apache-Webserver startet. Dazu können wir im Vagrantfile den Code etwas leicht abändern und direkt auf Bash-Ebene mit einfachen Befehlen arbeiten.
+Im ersten Schritt werden wir mithilfe von Vagrant, welches schon vor installiert ist, ein Webserver erstellen, welches Automatisiert it einem vorerstelltem Script erstellt wird.
 
-Nachfolgend wird die VM mit einem bereits abgeänderten File bzw. VM aus dem M300-Repository erstellt:
+1. Terminal (Bash) öffnen
+2. In das M300-Verzeichnis (/M300/vagrant/web) wechseln:
 
-Terminal (Bash) öffnen
-In das M300-Verzeichnis (/M300/vagrant/web) wechseln:
+3. $ cd Pfad/zum-M300-Verzeichnis/vagrant/web
 
- - $ cd Pfad/zum-M300-Verzeichnis/vagrant/web
+4. VM erstellen und starten:
 
-VM erstellen und starten:
+5. $ vagrant up
 
-- $ vagrant up
+6. Nachdem der Webserver erstellt wurde und mit dem Port 8080 freigegeben worden ist, kann man jetzt über den Browser mit dem Port 8080 darauf zugreifen.
 
-Webbrowser in der VM öffnen und prüfen, ob der Standard-Content des Webservers unter "http://127.0.0.01:8080" (localhost) erreichbar ist
-Im Ordner /web die Hauptseite index.html editieren bzw. durch eine andere ersetzen (z.B. HTML5up-Themplate) und das Resultat überprüfen
-Abschliessend kann die VM wieder gelöscht werden:
+"http://10.4.43.27/:8080
 
-- $ vagrant destroy -f
 
-Vagrant ist nun komplett einsatzfähig!
+7. (Optional) $ vagrant destroy -f
+
+Vagrant kann mit diesem Befehl alle VMs erstellen.
 
 ---
