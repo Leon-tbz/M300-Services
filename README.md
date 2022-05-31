@@ -60,7 +60,7 @@ Docker-Hub ist ein Online-Dienst, der eine Registry und Repositories für Docker
 
 # Supported tags und respective Dockerfile links
 
-Simple Tags:
+Simple Tags Beispiele:
 
 20.10.16, 20.10, 20, latest, 20.10.16-alpine3.16
 20.10.16-dind, 20.10-dind, 20-dind, dind, 20.10.16-dind-alpine3.16
@@ -69,4 +69,11 @@ Simple Tags:
 20.10.16-windowsservercore-ltsc2022, 20.10-windowsservercore-ltsc2022, 20-windowsservercore-ltsc2022, windowsservercore-ltsc2022
 20.10.16-windowsservercore-1809, 20.10-windowsservercore-1809, 20-windowsservercore-1809, windowsservercore-1809
 
+Docker bietet eine eingebaute Versionsverwaltung. Diese erlaubt es, den aktuellen Stand des Containers in ein Image zu sichern, dieses auf das Docker Hub zu laden, die Unterschiede zwischen dem aktuellen Zustand des Containers und dem ursprünglichen Image unterscheidet sich bei den Endungen. BSP: Version 20.10, ladet die neuste Version bsp: 20.10.12 herunter.
+
+Befehl, um die neuste Version herunterzuladen:
+- $ docker pull "mariadb"
+
 ---
+
+
