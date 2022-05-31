@@ -50,3 +50,11 @@ Stoppen eines Containers
 
 Hinzufügen von metadaten zu einem container
 - $> docker run -d \             label=traefik.backend=jenkins jenkins
+
+---
+Dockerhub
+---
+Docker-Hub ist ein Online-Dienst, der eine Registry und Repositories für Docker-Images beinhaltet. Die Registry teilt sich in einen öffentlichen und einen privaten Teil auf. Im öffentlichen Teil kann jeder Nutzer seine selbst erstellten Images hochladen und anderen Nutzern zur Verfügung stellen.
+
+![grafik](https://user-images.githubusercontent.com/89446419/171114303-bc5bbfc8-1192-4b0f-b1b8-c242b66a5fb3.png)
+
