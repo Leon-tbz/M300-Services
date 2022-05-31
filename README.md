@@ -58,3 +58,15 @@ Docker-Hub ist ein Online-Dienst, der eine Registry und Repositories für Docker
 
 ![grafik](https://user-images.githubusercontent.com/89446419/171114303-bc5bbfc8-1192-4b0f-b1b8-c242b66a5fb3.png)
 
+# Supported tags und respective Dockerfile links
+
+Simple Tags:
+
+20.10.16, 20.10, 20, latest, 20.10.16-alpine3.16
+20.10.16-dind, 20.10-dind, 20-dind, dind, 20.10.16-dind-alpine3.16
+20.10.16-dind-rootless, 20.10-dind-rootless, 20-dind-rootless, dind-rootless
+20.10.16-git, 20.10-git, 20-git, git
+20.10.16-windowsservercore-ltsc2022, 20.10-windowsservercore-ltsc2022, 20-windowsservercore-ltsc2022, windowsservercore-ltsc2022
+20.10.16-windowsservercore-1809, 20.10-windowsservercore-1809, 20-windowsservercore-1809, windowsservercore-1809
+
+---
