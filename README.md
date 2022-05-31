@@ -30,6 +30,9 @@ Container sind eine Virtualisierungstechnik im Computerumfeld, die Anwendungen i
 
 Grund Befehle, um ein Container zu bedienen:
 
+Mit dem Befehl erhaltet man alle Commands
+- $> docker
+
 Starten eines Containers im Hintergrund
 - $> docker run -djenkins
 
@@ -74,6 +77,69 @@ Docker bietet eine eingebaute Versionsverwaltung. Diese erlaubt es, den aktuelle
 Befehl, um die neuste Version herunterzuladen:
 - $ docker pull "mariadb"
 
+Listet alle vorhandenen Images auf, welche isntalliert sind:
+- $ docker image ls
+- $ docker image list
+- $ docker images
+
+Mit diesem Befehl zeigt es die History des imagefiles an:
+- $ docker image history (ID, kann mit docker image ls angezeigt werden)
+
+Mit diesem Befehl kann man das Imagefile inspizieren:
+- $ docker image inspect (ID, kann mit docker image ls angezeigt werden)
+
 ---
+# Starten eines mariadb Server instanz und Status anzeigen
+---
+
+Starten einer MariaDB instanz mit der neusten Version:
+- $ docker run --detach --name some-mariadb --env MARIADB_USER=example-user --env MARIADB_PASSWORD=my_cool_secret --env MARIADB_ROOT_PASSWORD=my-secret-pw  mariadb:latest
+
+Mit diesemm Befehl zeigt man die aktuell laufenden Containers an:
+- $ docker stop ID (kann mit docker ps angezeigt werden)
+
+DANACH, um den Container wieder zu starten
+
+Mit diesemm Befehl zeigt man die aktuell gestoppten Containers an:
+- $ docker ps -a
+
+Hiermit löscht man einen vorhandenen Container
+- $ docker rm (ID, kann mit docker ps angezeigt werden)
+
+---
+# Ports und Netzwerkstatus
+---
+
+Hiermit exportiert man den Port einer VM:
+- $ docker run -p 80:80 -dnginx
+
+Aktive Internet Status der Ports anzeigen:
+- $ netstat -tulpn
+
+---
+# Zugriff auf Containershell
+---
+
+Hiermit erhaltet man Zugriff auf den laufendenden Container
+- $ docker exec -it ID (kann mit docker ps angezeigt werden) "BEFEHL" (BSP: "/bin/bash" Verzeichnis gehen)
+
+Verlassen der Containershell
+- $ exit
+
+---
+# Löschen und wiederherstellen von Container / Volumes
+---
+
+löschen von Container:
+- $ docker rm ID (kann mit docker ps angezeigt werden)
+
+Auflisten der Volumes der erstellten Containers
+- $ docker volume ls
+
+Erstellen von Volumes
+- $ docker volume create mydbstore(Name)
+
+Volumes werden auf der VM, auf der der Container läuft, lokale abgespeichert. Um den Pfad dieses Volumes auf der VM anzuzeigen hat man die Möglichkeit mit folgendem Command dies anzuschauen, beim folgendem Punkt: "Mountpoint":
+- $ docker volume inspect mydbstore(name des Volumes)
 
 
