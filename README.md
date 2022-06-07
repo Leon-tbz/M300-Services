@@ -193,4 +193,6 @@ Volumes werden auf der VM, auf der der Container läuft, lokale abgespeichert. U
 $ docker volume inspect mydbstore(name des Volumes)
 ```
 
-
+---
+# Wie kann man Daten eiens Containers pesistent ablegen?
+---
