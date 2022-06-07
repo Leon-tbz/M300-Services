@@ -194,5 +194,16 @@ $ docker volume inspect mydbstore(name des Volumes)
 ```
 
 ---
-# Wie kann man Daten eiens Containers pesistent ablegen?
+# Wie kann man Daten eines Containers pesistent ablegen?
 ---
+
+Um Daten persistent abzulegen hat man die Möglichkeit, Volumes erstellen, die auf dem Gastsystem in einem Verzeichnis abgespeichert werden.
+Sprich beim Erstellen des Volumes wird ein Verzeichnis auf dem Gastsystem erstellt, das mit dem Volume gemountet wird, das man beim erstellen des Containers angeben kann, um die Daten die auf dem Container laufen aus einem Verzeichnis abspeichern kann. BSP: /var/lib/mysql in Volume:test> /var/snap/docker usw.
+
+```
+$ docker run --detach --name some-mariadb --env MARIADB_USER=example-user --env MARIADB_PASSWORD=my_cool_secret --env MARIADB_ROOT_PASSWORD=my-secret-pw 
+-v VOLUME1:/var/lib/mysql/ mariadb:latest
+```
+```
+-v "NAMEdesVOlumes":/var/lib/mysql
+```
