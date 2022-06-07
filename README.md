@@ -8,7 +8,7 @@ Im ersten Schritt werden wir mithilfe von Vagrant, welches schon vor installiert
 1. Terminal (Bash) öffnen
 2. In das M300-Verzeichnis (/M300/vagrant/web) wechseln:
 
-3. $ cd Pfad/zum-M300-Verzeichnis/vagrant/web
+3. ```$ cd Pfad/zum-M300-Verzeichnis/vagrant/web```
 
 4. VM erstellen und starten:
 
