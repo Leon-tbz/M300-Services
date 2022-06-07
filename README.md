@@ -31,13 +31,19 @@ Container sind eine Virtualisierungstechnik im Computerumfeld, die Anwendungen i
 Grund Befehle, um ein Container zu bedienen:
 
 Mit dem Befehl erhaltet man alle Commands
-```$> docker```
+```
+$> docker
+```
 
 Starten eines Containers im Hintergrund
-```$> docker run -djenkins```
+```
+$> docker run -djenkins
+```
 
 Starten eines interaktiven Containers
-```$> docker run -itubuntubash```
+```
+$> docker run -itubuntubash
+```
 
 Exportiert port von einem Container
 ```$> docker run -p 80:80 -dnginx```
