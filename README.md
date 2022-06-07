@@ -8,7 +8,7 @@ Im ersten Schritt werden wir mithilfe von Vagrant, welches schon vor installiert
 1. Terminal (Bash) öffnen
 2. In das M300-Verzeichnis (/M300/vagrant/web) wechseln:
 
-3. ```$ cd Pfad/zum-M300-Verzeichnis/vagrant/web```
+3. $ cd Pfad/zum-M300-Verzeichnis/vagrant/web
 
 4. VM erstellen und starten:
 
@@ -31,28 +31,28 @@ Container sind eine Virtualisierungstechnik im Computerumfeld, die Anwendungen i
 Grund Befehle, um ein Container zu bedienen:
 
 Mit dem Befehl erhaltet man alle Commands
-- $> docker
+```$> docker```
 
 Starten eines Containers im Hintergrund
-- $> docker run -djenkins
+```$> docker run -djenkins```
 
 Starten eines interaktiven Containers
-- $> docker run -itubuntubash
+```$> docker run -itubuntubash```
 
 Exportiert port von einem Container
-- $> docker run -p 80:80 -dnginx
+```$> docker run -p 80:80 -dnginx```
 
 Starten eines benennter Container
-- $>docker run --namemydbredis
+```$>docker run --namemydbredis```
 
 Neustarten eines gestoppten Container
-- $> docker startmydb
+```$> docker startmydb```
 
 Stoppen eines Containers
-- $> docker stopmydb
+```$> docker stopmydb```
 
 Hinzufügen von metadaten zu einem container
-- $> docker run -d \             label=traefik.backend=jenkins jenkins
+```$> docker run -d \             label=traefik.backend=jenkins jenkins```
 
 ---
 Dockerhub
