@@ -207,3 +207,45 @@ $ docker run --detach --name some-mariadb --env MARIADB_USER=example-user --env 
 ```
 -v "NAMEdesVOlumes":/var/lib/mysql
 ```
+---
+# Einfache Web-App in einen Container  verfrachten
+---
+In diesem Auftrag haben wir folgenede Schritte vorgenommen um einen laufenden Container mit Content zu starten:
+
+- 1.Eigenes Repository clonen
+```
+$ mkdir TEMP_Docker  (Unterverzeichnis "TEMP_Docker" erstellen)
+$ cd TEMP_Docker   (Ins Unterverzeichnis "TEMP_Docker" wechseln) 
+$ git clone https://github.com/Leon-tbz/M300-Services/edit/main/README.md   (Repo klonen)
+$ cd Container-CAL-webapp-v1/  ins Repo-Unterverzeichnis hüpfen
+$ cd APP (Ins Unterverzeichnis "APP" hüpfen)
+$ less Dockerfile  (Inhalt des Dockerfiles anschauen)
+$ docker --version  (Nochmals sicherstellen, dass Docker installiert ist (Notwendig)
+```
+- 2.Content angepasst im home.pug file mit folgendem Befehl:
+```
+$ sudo nano home.pug (Im Verzechnis views)
+```
+- 3.Docker-Image erstellt
+```
+$ docker image build -t leonrezek/webapp_one:1.0 .
+```
+- 4. Image in Repo bei Docker pushen
+
+```
+$ docker login --username=leonrezek
+$ docker image push leonrezek/webapp_one:1.0
+```
+
+- 5.Docker-Image nutzen und Container starten
+```
+$ docker container run -d --name cal-web -p 8080:8080 marcellocalisto/webapp_one:1.0
+```
+- 6. Auf den laufenden Container zugegriffen
+
+- 7. Container und Image manipulieren (stoppen, starten, löschen) mit folgendem Befehl:
+```
+$ docker ps
+$ docker stop
+$ docker rm
+```
