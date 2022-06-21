@@ -257,6 +257,6 @@ In diesem Projekt werde ich einen Container erstellen auf dem schlussendlich ein
 ---
 # Was ist Mailu?
 ---
-![grafik]([https://user-images.githubusercontent.com/89446419/171114303-bc5bbfc8-1192-4b0f-b1b8-c242b66a5fb3.png](https://mailu.io/1.9/_images/logo.png))
+![grafik](logo.png))
 
 Mailu ist ein voll funktionsfähiger Mailserver als Satz von Docker-Images. Man hat mit Mailu die Mögliochkeit, einen leicht zu wartenden und voll ausgestatteten Mailserver aufztstzwen und zur Verfügung zu stellen, ohne proprietäre Software oder nicht damit zusammenhängende Funktionen zu liefern, die oft in populärer Groupware zu finden sind.
