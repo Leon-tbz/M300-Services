@@ -278,3 +278,7 @@ Folgende Features sind inbegriffen:
 - Antispam, Auto-Lernen, Greylisting, DMARC und SPF
 
 - Freedom, alle FOSS-Komponenten, kein Tracker enthalten
+
+---
+# Umsetzung
+---
