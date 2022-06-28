@@ -14,35 +14,33 @@ OwnCloud ist eine freie Software für das Speichern von Daten (Filehosting) auf 
 
 Folgende Features sind inbegriffen:
 
--  1. Zugriff auf Ihre Daten:
+1. Zugriff auf Ihre Daten:
 Speichern Sie alle Ihre Dokumente, Ordner, Kontakte, Fotoalben, Kalender und andere Informationen auf einem Server Ihrer Wahl.
 Sie können einen Desktop, ein mobiles Gerät oder einen Webbrowser verwenden, um auf diesen Ordner zuzugreifen.
 Sie können jederzeit und von jedem Ort aus auf Ihre Daten zugreifen.
 
 
-- 2. Synchronisation der Daten
+2. Synchronisation der Daten
 Synchronisieren Sie die Kalender, Kontakte, Fotoalben und andere Daten Ihrer Geräte.
 
-- 3. Daten Verfügbar machen.
+3. Daten Verfügbar machen.
 Greifen Sie auf Ihre neuesten Fotogalerien, Kalender, Musik und andere Inhalte zu, indem Sie Ihre Daten für andere freigeben.
 Teilen Sie sie entweder offen oder heimlich.
 Ihre Daten gehören Ihnen und Sie können sie verwenden, wie Sie wollen. 
 
-- 4. Versionierung bei Änderungen einer Datei
+4. Versionierung bei Änderungen einer Datei
 
-- 5. Verschlüsselung der Daten
+5. Verschlüsselung der Daten
 Wenn die Verschlüsselungsanwendung aktiviert ist, werden alle auf dem ownCloud-Server gespeicherten Dateien mit Ihrem Passwort verschlüsselt.
 
-- 6. Hochladen per Drag & Drop
+6. Hochladen per Drag & Drop
 
-nd es in Ihrem Webbrowser lesen, ohne es herunterladen zu müssen.
-
-- 7. Anwendungs-API's
+7. Anwendungs-API's
 Neue, öffentlich definierte APIs machen die Erstellung von Anwendungen für ownCloud viel einfacher und ermöglichen zusätzliche Funktionen und einen stabilen Integrationspunkt für zukünftige Versionen.
 
-- 8. Migration und Backup Funktionen
+8. Migration und Backup Funktionen
 
-- 9. Protokollierung
+9. Protokollierung
 Möchten Sie ownCloud in Ihren bestehenden Syslog-Dienst integrieren? Jetzt kann ownCloud sowohl in Syslog-Protokolldateien als auch in die bestehende ownCloud-Protokolldatei schreiben.
 
 ---
