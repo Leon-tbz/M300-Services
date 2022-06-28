@@ -6,7 +6,7 @@ In diesem Projekt werden wir einen Container erstellen auf dem schlussendlich ei
 ---
 # Was ist Owncloud?
 ---
-![grafik](Owncloud.png = 400x400)
+![grafik](Owncloud.png {width=400px height=400px})
 
 OwnCloud ist eine freie Software für das Speichern von Daten (Filehosting) auf einem eigenen Server. Bei Einsatz eines entsprechenden Clients wird dieser automatisch mit einem lokalen Verzeichnis synchronisiert. Dadurch kann von mehreren Rechnern auf einen konsistenten Datenbestand zugegriffen werden. Das Projekt wurde im Januar 2010 vom KDE-Entwickler Frank Karlitschek ins Leben gerufen, um eine freie Alternative zu kommerziellen Anbietern eines Cloud-Service zu schaffen. Im Gegensatz zu kommerziellen Speicherdiensten kann ownCloud auf einem privaten Server oder Webspace installiert werden.
 
