@@ -41,7 +41,7 @@ Neue, öffentlich definierte APIs machen die Erstellung von Anwendungen für own
 8. Migration und Backup Funktionen
 
 9. Protokollierung
-Möchten Sie ownCloud in Ihren bestehenden Syslog-Dienst integrieren? Jetzt kann ownCloud sowohl in Syslog-Protokolldateien als auch in die bestehende ownCloud-Protokolldatei schreiben.
+Owncloud kann sowohl in Syslog-Protokolldateien als auch in die bestehende ownCloud-Protokolldatei schreiben.
 
 ---
 # Umsetzung
