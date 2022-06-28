@@ -14,7 +14,7 @@ OwnCloud ist eine freie Software für das Speichern von Daten (Filehosting) auf 
 
 Folgende Features sind inbegriffen:
 
-- 1. Zugriff auf Ihre Daten:
+-  1. Zugriff auf Ihre Daten:
 Speichern Sie alle Ihre Dokumente, Ordner, Kontakte, Fotoalben, Kalender und andere Informationen auf einem Server Ihrer Wahl.
 Sie können einen Desktop, ein mobiles Gerät oder einen Webbrowser verwenden, um auf diesen Ordner zuzugreifen.
 Sie können jederzeit und von jedem Ort aus auf Ihre Daten zugreifen.
