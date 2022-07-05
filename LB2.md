@@ -46,4 +46,26 @@ Owncloud kann sowohl in Syslog-Protokolldateien als auch in die bestehende ownCl
 ---
 # Umsetzung
 ---
-Beim ersten Befehl ladet man das Owncloud Image auf den lokalen Host herunter
+1. Zu beginn laden wir das mysql Image herunter und starten den Container anschliessend
+```
+$> docker pull mysql
+```
+```
+$> docker pull mysql
+```
+
+
+1. Beim ersten Befehl ladet man das Owncloud Image auf den lokalen Host herunter
+```
+$> docker pull owncloud
+```
+
+2. Mit folgendem Befehl zeigt man die Version und grösse des Images an
+```
+$> docker images ¦ grep owncloud
+```
+
+3. Mit fogendem Befehl startet man die VM mit dem heruntergeladenen Image und verknüpft sie mit der erstellten SQL-Datenbank Container
+```
+$> docker run --name owncloud -h owncloud -p 8080:80 --link mysql:mysql -d owncloud
+```
