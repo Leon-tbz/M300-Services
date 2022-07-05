@@ -74,5 +74,5 @@ $> docker logs -f owncloud
 
 6. Im nächsten Schritt gibt man in den Browser die IP des Containers und den entsprechenden Port an, um auf das Interface der Owncloud zuzugreifen:
 
-
+<img src="./Webinterface.png" alt="Webinterface" width="500px"/>
 
