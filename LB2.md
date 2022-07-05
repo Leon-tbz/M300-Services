@@ -46,14 +46,6 @@ Owncloud kann sowohl in Syslog-Protokolldateien als auch in die bestehende ownCl
 ---
 # Umsetzung
 ---
-1. Zu beginn laden wir das mysql Image herunter und starten den Container anschliessend
-```
-$> docker pull mysql
-```
-```
-$> docker pull mysql
-```
-
 
 1. Beim ersten Befehl ladet man das Owncloud Image auf den lokalen Host herunter
 ```
@@ -65,7 +57,22 @@ $> docker pull owncloud
 $> docker images ¦ grep owncloud
 ```
 
-3. Mit fogendem Befehl startet man die VM mit dem heruntergeladenen Image und verknüpft sie mit der erstellten SQL-Datenbank Container
+3. Mit fogendem Befehl startet man die VM mit dem heruntergeladenen Image und verknüpft sie mit einem SQL-Datenbank Container welcher zusätzlich erstellt wird.
 ```
-$> docker run --name owncloud -h owncloud -p 8080:80 --link mysql:mysql -d owncloud
+$> docker run --name owncloud -h owncloud -p 8080:80 --link mysql01:mysql -d owncloud
 ```
+
+4. Mit diesem Befehl zeigt man die laufenden Container an und kann das Portforwarding prüfen.
+```
+$> docker ps
+```
+
+5. Jetzt hat man die Möglichkeit die Logs des laufenden Container anzuzeigen.
+```
+$> docker logs -f owncloud
+```
+
+6. Im nächsten Schritt gibt man in den Browser die IP des Containers und den entsprechenden Port an, um auf das Interface der Owncloud zuzugreifen:
+
+
+
