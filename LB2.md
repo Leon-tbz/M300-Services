@@ -46,3 +46,4 @@ Owncloud kann sowohl in Syslog-Protokolldateien als auch in die bestehende ownCl
 ---
 # Umsetzung
 ---
+Beim ersten Befehl ladet man das Owncloud Image auf den lokalen Host herunter
