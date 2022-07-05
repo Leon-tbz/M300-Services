@@ -76,3 +76,25 @@ $> docker logs -f owncloud
 
 <img src="./Webinterface.png" alt="Webinterface" width="500px"/>
 
+7. Nun hat man die Möglichkeit ein Benutzer zu erstellen und anschliessend unter "Storage & database" den Pfad und die SQL Logindaten des Root Benutzer anzugeben. Dafür muss man mit folgendem Befehl auf den Container zugreifen:
+```
+$> docker exec -it mysql01 bash
+```
+
+8. Nun hat man Zugriff auf den mysql Container und gibt anschliessend folgenden Befehl ein, um auf die Datenbank zuzugreifen:
+```
+$> mysql -uroot -p
+```
+
+9. Im nächsten Schritt erstellt man eine Datenbank mit dem namen mysql01
+```
+$> create database owncloud
+```
+
+10. Wenn diese Schritte erledigt sind, kann man nun zurück auf das Owncloud Interface zugreifen und die Login Daten eingeben des SQL Root Benutzers.
+
+11. Nun hat man sich erfolgreich auf die DB connected und es funktionierte.
+
+
+
+
