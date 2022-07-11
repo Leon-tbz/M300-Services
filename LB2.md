@@ -98,6 +98,7 @@ $> create database owncloud
 
 ---
 **Image-Bereitstellung**
+
 Um Images für andere Personen bereitzustellen, hat man die Möglichkeit Images die man selber erstellt, in Docker Hub hochzuladen.
 Docker Hub ist ein Onlinedienst, der eine Registry für Docker-Images und Repositories beinhaltet. Die Registry teilt sich in einen öffentlichen und einen privaten Teil auf. Im öffentlichen Teil kann jeder Nutzer seine selbst erstellten Images hochladen und damit anderen Nutzern zur Verfügung stellen. Außerdem gibt es mittlerweile offizielle Images, z. B. von Linux-Distributoren. Im privaten Teil von Docker Hub können Benutzer ihre Docker-Images hochladen und dadurch einfach z. B. firmenintern verteilen, ohne dass diese damit öffentlich auffindbar sind.
 
