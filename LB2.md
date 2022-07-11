@@ -106,16 +106,12 @@ Folgende Befehle sind nötig um das Image in den eigenen Docker Hub Account hoch
 
 
 1. Zuerst muss man bei Docker Hub einen Account erstellen
-2. Danach hat man die Möglichkeit mit folgendem Befehl das Image zu erstellen mit einem Versions Tag am Schluss
+2. Danach hat man die Möglichkeit mit folgendem Befehl das Image zu erstellen mit einem Versions Tag am Schluss.
 ```
-$> docker build -t owncloud:1.0 .
+$> sudo docker commit -m "Version 1" -a "Léon Rezek und Alessandro Adelidia" mysql:5.6 leonrezek/mysql:1.0
 ```
 
-3. Danach hat man die Möglichkeit mit dem Benutzernamen und dem Image Tag in Docker Hub taggen:
-```
-$> docker tag mysql username/mysql
-```
-4. Image hochladen:
+3. Image hochladen:
 
 ```
 $> $ docker push username/mysql
