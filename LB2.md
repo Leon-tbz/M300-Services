@@ -95,6 +95,7 @@ $> create database owncloud
 
 11. Nun hat man sich erfolgreich auf die DB connected und es funktionierte.
 
+<img src="./fertig.png" alt="Owncloud" width="800px"/>
 
 ---
 # Image-Bereitstellung
