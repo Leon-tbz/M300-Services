@@ -96,5 +96,29 @@ $> create database owncloud
 11. Nun hat man sich erfolgreich auf die DB connected und es funktionierte.
 
 
+---
+
+**Error-Handling**
+
+Bei Problemem bei der Umsetzung haben wir über Google probiert das Problem zu beheben, die Lehrperson gefragt oder andere Teams angeschrieben, ob diese das gleiche Problem hatten.
+
+---
+
+
+**Quellenverzeichnis**
+
+Youtube Tutorial: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwj7zcjcufD4AhXplP0HHfeTDwUQtwJ6BAgHEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dt6fTwSEtJus&usg=AOvVaw0pcN1JvzqIrGEA0Fy0hVcm
+
+Docker Run: https://web.microsoftstream.com/video/83fcd7b5-c36b-4ca8-8433-73d7aff4fb19?list=user&userId=91407230-9462-4d68-a2e7-13e41cfe3aaf
+
+Docker Compose: https://web.microsoftstream.com/video/c8605a61-35c6-4380-9fb9-387733085b44?list=user&userId=91407230-9462-4d68-a2e7-13e41cfe3aaf
+
+Unterstützung durch Aqeb Ahmed
+
+---
+
+**1.8. OpenSource Lizenz**
+- - -
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/ch/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/ch/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/ch/">Creative Commons Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 3.0 Schweiz Lizenz</a>
 
 
