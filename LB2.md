@@ -126,7 +126,7 @@ Bei Problemem bei der Umsetzung haben wir über Google probiert das Problem zu b
 
 # Troubleshooting
 
-Am Anfang hatten wir Probleme bei der Auswahl des Projektes. Nachdem wir und über mögliche Themen im Internet umgesehen haben hatten wir uns schlussendlich auf das Owncloud Projekt fokussiert. Zudem gab es Probleme mit dem MYSQL Container bei der Verbindung mit dem Owncloud Container bei dem folgende Meldung erschien: "Authentication failed" . Das Problem war am Schluss das die latest Version des MYSQL Container nicht mit Owncloud funktionierte und man eine ältere Version installieren musste. Danach konnte man die Datenbank erfolgreich hinzufügen und es funktionerte. 
+Am Anfang hatten wir Probleme bei der Auswahl des Projektes. Nachdem wir und über mögliche Themen im Internet umgesehen haben hatten wir uns schlussendlich auf das Owncloud Projekt fokussiert. Zudem gab es Probleme mit dem MYSQL Container bei der Verbindung mit dem Owncloud Container bei dem folgende Meldung erschien: "Authentication failed" . Mithilfe des Internets und der Unterstützung von Herr Calisto konnte wir den Fehler eingrenzen und somit lösen. Das Problem war am Schluss das die latest Version des MYSQL Container nicht mit Owncloud funktionierte und man eine ältere Version installieren musste. Danach konnte man die Datenbank erfolgreich hinzufügen und es funktionerte. 
 
 # Quellenverzeichnis
 
