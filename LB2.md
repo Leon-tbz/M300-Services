@@ -97,6 +97,28 @@ $> create database owncloud
 
 
 ---
+**Image-Bereitstellung**
+Um Images für andere Personen bereitzustellen, hat man die Möglichkeit Images die man selber erstellt, in Docker Hub hochzuladen.
+Docker Hub ist ein Onlinedienst, der eine Registry für Docker-Images und Repositories beinhaltet. Die Registry teilt sich in einen öffentlichen und einen privaten Teil auf. Im öffentlichen Teil kann jeder Nutzer seine selbst erstellten Images hochladen und damit anderen Nutzern zur Verfügung stellen. Außerdem gibt es mittlerweile offizielle Images, z. B. von Linux-Distributoren. Im privaten Teil von Docker Hub können Benutzer ihre Docker-Images hochladen und dadurch einfach z. B. firmenintern verteilen, ohne dass diese damit öffentlich auffindbar sind.
+
+Folgende Befehle sind nötig um das Image in den eigenen Docker Hub Account hochzuladen:
+
+
+1. Zuerst muss man bei Docker Hub einen Account erstellen
+2. Danach hat man die Möglichkeit mit folgendem Befehl das Image zu erstellen mit einem Versions Tag am Schluss
+```
+$> docker build -t owncloud:1.0 .
+```
+
+3. Danach hat man die Möglichkeit mit dem Benutzernamen und dem Image Tag in Docker Hub taggen:
+```
+$> docker tag mysql username/mysql
+```
+4. Image hochladen:
+
+```
+$> $ docker push username/mysql
+```
 
 **Error-Handling**
 
@@ -117,7 +139,7 @@ Unterstützung durch Aqeb Ahmed
 
 ---
 
-**1.8. OpenSource Lizenz**
+**OpenSource Lizenz**
 - - -
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/ch/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/ch/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/ch/">Creative Commons Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 3.0 Schweiz Lizenz</a>
 
