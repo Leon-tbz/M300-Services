@@ -126,11 +126,11 @@ Bei Problemem bei der Umsetzung haben wir über Google probiert das Problem zu b
 
 # Troubleshooting
 
-Am Anfang hatten wir Probleme bei der Auswahl des Projektes. Nachdem wir und über mögliche Themen im Internet umgesehen haben hatten wir uns schlussendlich auf das Owncloud Projekt fokussiert. Zudem gab es Probleme mit dem MYSQL Container bei der
+Am Anfang hatten wir Probleme bei der Auswahl des Projektes. Nachdem wir und über mögliche Themen im Internet umgesehen haben hatten wir uns schlussendlich auf das Owncloud Projekt fokussiert. Zudem gab es Probleme mit dem MYSQL Container bei der Verbindung mit dem Owncloud Container. Das Problem war am Schluss das die latest Version des MYSQL Container nicht mit Owncloud funktionierte und man eine ältere Version installieren musste. Danach konnte man die Datenbank erfolgreich hinzufügen und es funktionerte.
 
 # Quellenverzeichnis
 
-Youtube Tutorial: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwj7zcjcufD4AhXplP0HHfeTDwUQtwJ6BAgHEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dt6fTwSEtJus&usg=AOvVaw0pcN1JvzqIrGEA0Fy0hVcm
+Youtube Tutorial: https://www.youtube.com/watch?v=R6vzgai8kv0
 
 Docker Run: https://web.microsoftstream.com/video/83fcd7b5-c36b-4ca8-8433-73d7aff4fb19?list=user&userId=91407230-9462-4d68-a2e7-13e41cfe3aaf
 
