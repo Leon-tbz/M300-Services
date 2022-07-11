@@ -124,6 +124,9 @@ Bei Problemem bei der Umsetzung haben wir über Google probiert das Problem zu b
 
 ---
 
+# Troubleshooting
+
+Am Anfang hatten wir Probleme bei der Auswahl des Projektes. Nachdem wir und über mögliche Themen im Internet umgesehen haben hatten wir uns schlussendlich auf das Owncloud Projekt fokussiert. Zudem gab es Probleme mit dem MYSQL Container bei der
 
 # Quellenverzeichnis
 
